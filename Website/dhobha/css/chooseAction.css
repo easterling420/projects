@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+body{
+	font-family: "Open Sans";
+	background:#333;
+}
+.outerContainer{
+	text-align: center;
+}
+.addUser{
+	box-shadow: 10px 10px 15px #000;
+	border-radius: 20px;
+	padding:30px;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 2%;
+	background:#fff;
+	max-width: 300px;
+	width: 70%;
+	display: inline-block;
+}
+.record{
+	box-shadow: 10px 10px 15px #000;
+	border-radius: 20px;
+	padding:30px;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin:2%;
+	margin-top: 0;
+	display: inline-block;
+	max-width: 300px;
+	width: 70%;
+	background: #fff;
+}
+.trans{
+	transition: .2s all;
+}
+.trans:hover{
+	background: #ddd;
+	color: #333;
+}
